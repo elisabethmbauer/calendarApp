@@ -18,8 +18,7 @@ Please make sure to have the following programms installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <https://github.com/elisabethmbauer/-elisabethmbauer-IU-Calendar-Web-Application->
-```
+git clone <https://github.com/elisabethmbauer/calendarApp>
 
 ### 2. Install Dependencies:
 
