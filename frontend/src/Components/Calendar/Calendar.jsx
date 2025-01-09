@@ -52,8 +52,7 @@ useEffect(() => {
         title: eventTitle,
         start: `${selectedDate}T${startTime}`,
         end: `${selectedDate}T${endTime}`,
-        type: selectedEvent?.type || "general",
-        completed: selectedEvent?.completed || false, // Default to "general" if not set
+        type: selectedEvent?.type || "general", // Default to "general" if not set
       };
   
       try {
@@ -155,7 +154,7 @@ useEffect(() => {
     setEndTime(selectedEvent.end.split("T")[1]); // Pre-fill the end time
     setSelectedEvent((prev) => ({
       ...prev,
-      type: selectedEvent.type || "general", // Preserve type, default to "general" if undefined
+      type: selectedEvent.type, // Preserve type
       completed: selectedEvent.completed, // Preserve completion state
     }));
     setModalOpen(false); // Close the modal

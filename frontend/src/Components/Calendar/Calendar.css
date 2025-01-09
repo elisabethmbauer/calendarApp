@@ -150,3 +150,44 @@
     font-size: 18px;
     z-index: 1000;
   }
+
+  /* Calendar - Tablet */
+@media (max-width: 768px) {
+  .calendar-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .fc-toolbar-title {
+    font-size: 1.2rem;
+  }
+
+  .event-form {
+    width: 100%;
+  }
+
+  .event-form input, .event-form select, .event-form button {
+    font-size: 14px;
+  }
+
+  .logout-button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+/* Calendar - Mobile */
+@media (max-width: 480px) {
+  .fc {
+    font-size: 12px;
+  }
+
+  .event-modal {
+    width: 90%;
+  }
+
+  .congratulation-message {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}

@@ -1,74 +1,8 @@
-# IU-Calendar WebApp
-
-This Calendar is developed to help student keep track of their academic milestones as well as their appointments. It contains:
-
-- Personal accounts with secure session-based authentication
-- an interactive calendar to create reschedule and delete events
-- A milestone Tracker to keep User informed and motivated about their progress
-
-## Prerequestits
-
-Please make sure to have the following programms installed:
-
-1. Node.js(v14 or higher)
-2. MongoDB
-3. Git
-
-## Installation:
-
-### 1. Clone the Repository
-
-```bash
-git clone <https://github.com/elisabethmbauer/-elisabethmbauer-IU-Calendar-Web-Application->
-```
-
-### 2. Install Dependencies:
-
-Backend:
-
-```bash
-    cd backend
-    npm install
-```
-
-Frontend:
-
-```bash
-    cd frontend
-    npm install
-```
-
-### 3. Configure MongoDB:
-
-- Make sure MongoDB is either running locally or on a cloud instance like MongoDB Atlas
-- Uddate MongoDB connection string in `backend/index.js` to reflect your MOngoDB instance.
-
-## How to Run the Application:
-
-### 1. Start frontend:
-
-```bash
-cd frontend
-npm start
-```
-
-### 2. Start backend:
-
-```bash
-cd backend
-npm start
-```
-
-### 3. Start browser and open the following pages:
-
-- Frontend: http://localhost:3000
-- Backend: http://localhost:5000
-
-## Additional Information:
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 

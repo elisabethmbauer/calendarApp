@@ -37,8 +37,9 @@
 .input{
     display: flex;
     align-items: center;
-    margin: auto;
-    width: 480px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 480px; /* Maximum width for large screens*/
     height: 80px;
     background: #eaeaea;
     border-radius: 6px;
@@ -50,7 +51,7 @@
 
 .input input{
     height: 50px;
-    width: 400px;
+    width: calc(100% - 60px); /* Dynamically adjust to container size */;
     background: transparent;
     border: none;
     outline: none;
@@ -103,3 +104,53 @@
     background: #EAEAEA;
     color: #676767;
 }  
+
+/* Login/Register - Tablet */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+      margin-top: 100px;
+    }
+  
+    .input {
+      width: 100%;
+      height: 60px;
+    }
+  
+    .input input {
+        width: 100%;
+        font-size: 16px;
+    }
+  
+    .submit-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .submit, .toggle-button {
+      width: 100%;
+    }
+  }
+  
+  /* Login/Register - Mobile */
+  @media (max-width: 480px) {
+    .text {
+      font-size: 32px;
+    }
+  
+    .input {
+      height: 50px;
+    }
+  
+    .input input {
+      font-size: 14px;
+      padding: 8px;
+      width: calc(100% - 20px);
+    }
+  
+    .forgot-password {
+      font-size: 14px;
+      padding-left: 10px;
+    }
+  }
+  

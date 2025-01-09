@@ -13,3 +13,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Global Styles - Tablet */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+}
+
+/* Global Styles - Mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+
+  .App-link {
+    font-size: 12px;
+  }
+}

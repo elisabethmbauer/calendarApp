@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* App Logo - Tablet */
+@media (max-width: 768px) {
+  .App-logo {
+    height: 30vmin;
+  }
+}
+
+/* App Logo - Mobile */
+@media (max-width: 480px) {
+  .App-logo {
+    height: 20vmin;
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
